@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('partials/common/head.ejs') %>
+<body>
+    <div id="site-content">	
+            <%- include('partials/common/header.ejs',{header : commonObj.header}) %> 
+        <main class="main-content"> 
+            <%- include('partials/services/servicesmain.ejs') %>
+        </main>
+        <%- include('partials/common/footer.ejs', {footer : commonObj.footer}) %>
+    </div>   
+</body>
+</html>

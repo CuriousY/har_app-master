@@ -1,0 +1,18 @@
+
+<!-- Our services section -->
+<div class="fullwidth-block features-section">
+    <div class="container">
+        <h2 class="section-title">our Services</h2>
+        <div class="row">
+            <%services.forEach(function(service){%>
+                <div class="col-md-3">
+                        <div class="feature">
+                            <img src="<%=service.icon%>" class="feature-image">
+                            <h3 class="feature-title"><%=service.title%></h3>
+                            <p><%=service.description%></p>
+                        </div>
+                    </div>
+            <%})%>
+         </div> <!-- .row -->
+    </div> <!-- .container -->
+</div> <!-- .fullwidth-block.features-section -->

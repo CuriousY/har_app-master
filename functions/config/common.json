@@ -1,0 +1,48 @@
+{
+    "header": {
+        "parlorname": "Hareena Beauty Parlor",
+        "parlorquote": "Transform yourself",
+        "logo": "images/logo.png",
+        "headermenu": [
+            {
+                "title": "home",
+                "url": "/"
+            },
+            {
+                "title": "about",
+                "url": "/about"
+            },
+            {
+                "title": "services",
+                "url": "/services"
+            },
+            {
+                "title": "gallery",
+                "url": "/gallery"
+            },
+            {
+                "title": "contact",
+                "url": "/contact"
+            }
+        ]
+    },
+    "footer": {
+        "contact": {
+            "company": "Hareena Beauty Parlor",
+            "address": "Plot 2, Meera Nagar, Jhalamand",
+            "email": "nickscorpio4u@gmail.com",
+            "phone": "(91)9971300950"
+        },
+        "social": {
+            "tagline": "Share your view on ",
+            "facebook": "#",
+            "twitter": "#",
+            "gplus": "#",
+            "pinterest": "#"
+        },
+        "offers": {
+            "tagline": "For monthly offers subscribe to us "
+        },
+        "copytext": "Copyright 2018 Hareenabeauty Designed by curiousy. All rights reserved."
+    }
+}

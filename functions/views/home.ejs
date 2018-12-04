@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('partials/common/head.ejs') %>
+<body>
+    <div id="site-content">	
+        <%- include('partials/common/header.ejs',{header : commonObj.header}) %>
+        <%- include('partials/home/slider.ejs',{sliders : homeObj.sliders}) %>        
+        <main class="main-content"> 
+            <%- include('partials/home/news.ejs',{news : homeObj.news}) %>
+            <%- include('partials/home/ourservices.ejs', {services : homeObj.services}) %>
+            <%- include('partials/home/ourteam.ejs') %>
+            <%- include('partials/home/information.ejs',{information : homeObj.information}) %>
+        </main>
+        <%- include('partials/common/footer.ejs', {footer : commonObj.footer}) %>
+    </div>   
+</body>
+</html>

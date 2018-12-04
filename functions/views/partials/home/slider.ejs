@@ -1,0 +1,14 @@
+<div class="hero hero-slider">
+    <ul class="slides">
+            <% sliders.forEach(function(slider){ %>
+            <li data-bg-image="<%=slider.imageurl%>">
+                <div class="container">
+                    <h3 class="slider-subtitle"><%=slider.servicesubtitle%></h3>
+                    <h2 class="slider-title"><%=slider.servicetitle%></h2>
+                    <p><%=slider.servicedescription%></p>
+                    <a href="<%=slider.link%>" class="button large">Read more</a>
+                </div>
+            </li>
+        <%})%>
+    </ul>
+</div>

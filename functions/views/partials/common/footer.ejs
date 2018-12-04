@@ -1,0 +1,50 @@
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="widget contact-widget">
+                    <h3 class="widget-title">Contact</h3>
+                    <div class="contact-info">
+                        <address>
+                            <img src="images/icon-map-small.png" class="icon">
+                            <p><strong><%=footer.contact.companyname%></strong>
+                                       <%=footer.contact.address%></p>
+                        </address>
+                        <a href="mailto:<%=footer.contact.email%>" class="mail"><img src="images/icon-envelope-small.png" class="icon"><%=footer.contact.email%></a>
+                        <a href="tel:<%=footer.contact.phone%>" class="phone"><img src="images/icon-phone-small.png" class="icon"><%=footer.contact.phone%></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="widget">
+                    <h3 class="widget-title">Social Media</h3>
+                    <p><%=footer.social.tagline%> </p>
+                    <div class="social-links">
+                        <a href="<%=footer.social.facebook%>"><i class="fa fa-facebook"></i></a>
+                        <a href="<%=footer.social.twitter%>"><i class="fa fa-twitter"></i></a>
+                        <a href="<%=footer.social.gplus%>"><i class="fa fa-google-plus"></i></a>
+                        <a href="<%=footer.social.pinterest%>"><i class="fa fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="widget">
+                    <h3 class="widget-title">Newsletter</h3>
+                    <p><%=footer.offers.tagline%> </p>
+                    <form action="#" class="subscribe-form">
+                        <input type="email" placeholder="Enter our email...">
+                        <input type="submit" value="Sign up">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="colophon">
+            <p><%=footer.copytext%></p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/app.js"></script>
+<script type="text/javascript">_satellite.pageBottom();</script>

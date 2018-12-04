@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('partials/common/head.ejs') %>
+<body>
+    <div id="site-content">	        
+            <%- include('partials/common/header.ejs',{header : commonObj.header}) %>      
+        <main class="main-content"> 
+            <%- include('partials/contact/contactmain.ejs') %>
+        </main>
+        <script src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
+        <%- include('partials/common/footer.ejs', {footer : commonObj.footer}) %>
+    </div>   
+</body>
+</html>

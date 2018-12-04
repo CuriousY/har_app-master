@@ -1,0 +1,72 @@
+{
+    "sliders": [
+        {
+            "servicesubtitle": "Expert facitlity for",
+            "servicetitle": "Bridal Makeup",
+            "servicedescription": "expert in bridal makeup .....",
+            "imageurl": "dummy/slider-1.jpg",
+            "link": "#"
+        },
+        {
+            "servicesubtitle": "Expert facitlity for",
+            "servicetitle": "Casual Makeup",
+            "servicedescription": "expert in bridal makeup .....",
+            "imageurl": "dummy/slider-2.jpg",
+            "link": "#"
+        },
+        {
+            "servicesubtitle": "Expert facitlity for",
+            "servicetitle": "New Makeup",
+            "servicedescription": "expert in bridal makeup .....",
+            "imageurl": "dummy/slider-3.jpg",
+            "link": "#"
+        }
+    ],
+    "news": [
+        {
+            "date": "29",
+            "monthyear": "07.2014",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo velit, tempora aut nesciunt",
+            "link": "#"
+        },
+        {
+            "date": "29",
+            "monthyear": "07.2014",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo velit, tempora aut nesciunt",
+            "link": "#"
+        },
+        {
+            "date": "29",
+            "monthyear": "07.2018",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo velit, tempora aut nesciunt",
+            "link": "#"
+        }
+    ],
+    "services": [
+        {
+            "title": "CleanUp",
+            "icon": "images/icon-1.png",
+            "description": "Lorem ipsum dolor sit amet, clean up"
+        },
+        {
+            "title": "Hair Dressup",
+            "icon": "images/icon-2.png",
+            "description": "Lorem ipsum dolor sit amet, hair dressup"
+        },
+        {
+            "title": "Eyebrow setup",
+            "icon": "images/icon-3.png",
+            "description": "Lorem ipsum dolor sit amet, eyebrow set up"
+        },
+        {
+            "title": "Complete Makeup",
+            "icon": "images/icon-4.png",
+            "description": "Lorem ipsum dolor sit amet, make up"
+        }
+    ],
+    "information" : {
+        "text1": "Lorem ipsum dolor sit amet, make up, Lorem ipsum dolor sit amet, make up, Lorem ipsum dolor sit amet, make up,Lorem ipsum dolor sit amet, make up",
+        "text2": "Lorem ipsum dolor sit amet, make up, Lorem ipsum dolor sit amet, make up, Lorem ipsum dolor sit amet, make up,Lorem ipsum dolor sit amet, make up",
+        "image" : "dummy/figure-1.jpg"
+    }
+}

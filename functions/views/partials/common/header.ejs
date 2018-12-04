@@ -1,0 +1,24 @@
+<header class="site-header">
+    <div class="container">
+        <a id="branding" href="/">
+            <img src="<%=header.logo%>" alt="<%=header.parlorname%>" class="logo">
+            <div class="logo-copy">
+                <h1 class="site-title"><%=header.parlorname%></h1>
+                <small class="site-description"><%=header.parlorquote%></small>
+            </div>
+        </a> <!-- #branding -->					
+        <!-- Default snippet for navigation -->
+        <div class="main-navigation">
+            <button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+            <ul class="menu">
+                    <% header.headermenu.forEach(function(menu){ %>
+                        <li class="menu-item">
+                            <a href="<%=menu.url%>"><%=menu.title%></a>
+                        </li>
+                      <% }); %>
+            </ul> <!-- .menu -->
+        </div> <!-- .main-navigation -->
+
+        <div class="mobile-navigation"></div>
+    </div>
+</header>

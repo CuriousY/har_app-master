@@ -1,0 +1,25 @@
+<div class="fullwidth-block latest-news-section">
+    <div class="container">
+        <h2 class="section-title">Latest News</h2>
+        <div class="row">
+            <% news.forEach(function(newsdata){ %>
+                <div class="col-md-4">
+                        <div class="news">
+                            <div class="entry-date">
+                                <div class="date"><%=newsdata.date%></div>
+                                <div class="monthyear"><%=newsdata.monthyear%></div>
+                            </div>
+                            <div class="entry-detail">
+                                <div class="entry-summary"> <%=newsdata.summary%>
+                                     <a href="<%=newsdata.link%>" class="more-icon"><img src="images/arrow.png"></a></div>
+                            </div>
+                        </div>
+                    </div>
+           <% }) %>
+        </div> <!-- .row -->
+
+        <div class="text-center">
+            <a href="#" class="button no-gradient">More news</a>
+        </div>
+    </div> <!-- .container -->
+</div> <!-- .fullwidth-block.latest-news-section -->
